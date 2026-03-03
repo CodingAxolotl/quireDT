@@ -1,34 +1,40 @@
+/* Global & body */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
   background: linear-gradient(135deg, #d6c6ff, #f1eaff);
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Brand text */
 .brand {
   position: absolute;
-  top: 15px;
+  top: 20px;
   left: 20px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
   color: #4a3aff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+/* Chat container */
 .chat-container {
-  margin: auto;
   width: 420px;
+  max-width: 95%;
   height: 80vh;
   background: white;
-  border-radius: 18px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.18);
   overflow: hidden;
 }
 
+/* Status bar */
 .status {
   padding: 12px;
   font-size: 14px;
@@ -37,18 +43,22 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+/* Chat messages */
 .chat-box {
   flex: 1;
   padding: 15px;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .message {
   margin-bottom: 12px;
   padding: 10px 14px;
-  border-radius: 14px;
+  border-radius: 16px;
   max-width: 75%;
   font-size: 14px;
+  word-wrap: break-word;
 }
 
 .message.user {
@@ -60,19 +70,23 @@ body {
 .message.bot {
   background: #f0f0ff;
   color: #333;
+  margin-right: auto;
 }
 
+/* Input area */
 .input-area {
   display: flex;
   border-top: 1px solid #eee;
+  background: #fafaff;
 }
 
 .input-area input {
   flex: 1;
   border: none;
-  padding: 12px;
+  padding: 14px;
   font-size: 14px;
   outline: none;
+  border-radius: 0;
 }
 
 .input-area button {
@@ -80,8 +94,9 @@ body {
   background: #4a3aff;
   color: white;
   padding: 0 18px;
-  cursor: pointer;
   font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .input-area button:hover {
