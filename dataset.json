@@ -1,0 +1,6 @@
+[
+  { "input": "Hi", "response": "Hello!" },
+  { "input": "How are you?", "response": "I'm good!" },
+  { "input": "What's your name?", "response": "I'm CreeperBot!" },
+  { "input": "Bye", "response": "See you later!" }
+]
