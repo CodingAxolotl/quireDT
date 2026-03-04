@@ -23,9 +23,11 @@
   { "input": "Who made you?", "response": "Creeper Labs created me." },
   { "input": "Who made you?", "response": "My creators are at Creeper Labs." },
 
-  { "input": "Tell me a joke", "response": "Why don’t programmers like nature? Too many bugs." },
-  { "input": "Tell me a joke", "response": "Why did the AI go to school? To improve its learning rate." },
-  { "input": "Tell me a joke", "response": "Why was the computer cold? It forgot to close its Windows." },
+  { "input": "Tell me a joke", "response": "I would like to give you a construction joke, but I'm still working on it." },
+  { "input": "Tell me a joke", "response": "I'm reading a book about anti-gravity. It's impossible to put down." },
+  { "input": "Tell me a joke", "response": "Why did the scarecrow win an award? Because he was outstanding in his field." },
+  { "input": "Tell me a joke", "response": "I would tell you a joke about time travel, but you didn’t like it." },
+  { "input": "Tell me a joke", "response": "Why don’t scientists trust atoms? Because they make up everything." },
 
   { "input": "Good morning", "response": "Good morning!" },
   { "input": "Good morning", "response": "Rise and shine!" },
